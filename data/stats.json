@@ -3,11 +3,11 @@
     "tracked": 274,
     "appliedConfirmed": 135,
     "deadlineOnly": 139,
-    "interviewsReached": 23,
+    "interviewsReached": 25,
     "offers": 15,
     "offersAccepted": 7,
-    "rejections": 57,
-    "inProgress": 24,
+    "rejections": 59,
+    "inProgress": 22,
     "countriesApplied": 18,
     "yearsSpanned": [
       2020,
@@ -68,8 +68,8 @@
       "applications": 55,
       "offers": 0,
       "accepted": 0,
-      "interviews": 3,
-      "rejected": 0
+      "interviews": 5,
+      "rejected": 2
     }
   ],
   "byType": [
@@ -125,7 +125,7 @@
     },
     {
       "label": "Applied",
-      "count": 87
+      "count": 85
     },
     {
       "label": "Account / Started",
@@ -148,6 +148,10 @@
       "count": 3
     },
     {
+      "label": "Second Interview",
+      "count": 2
+    },
+    {
       "label": "Networking call",
       "count": 2
     },
@@ -163,11 +167,11 @@
     },
     {
       "label": "Rejected",
-      "count": 57
+      "count": 59
     },
     {
       "label": "In Progress",
-      "count": 24
+      "count": 22
     },
     {
       "label": "Offer Declined",
@@ -379,11 +383,11 @@
     },
     {
       "stage": "Interview+",
-      "count": 23
+      "count": 25
     },
     {
       "stage": "Final round",
-      "count": 18
+      "count": 20
     },
     {
       "stage": "Offer",
