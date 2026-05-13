@@ -48,8 +48,11 @@ export function Flag({
       </span>
     );
   }
-  const w = size;
-  const h = Math.round(size * 0.75);
+  // flagcdn only serves discrete 4:3 sizes (16x12, 20x15, 24x18, 32x24, 40x30, ...)
+  // Snap to nearest valid pair derived from k where w=4k, h=3k.
+  const k = Math.max(4, Math.round(size / 4));
+  const w = k * 4;
+  const h = k * 3;
   return (
     <img
       src={`https://flagcdn.com/${w * 2}x${h * 2}/${iso}.png`}
