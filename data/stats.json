@@ -3,12 +3,12 @@
     "tracked": 278,
     "appliedConfirmed": 139,
     "deadlineOnly": 139,
-    "interviewsReached": 32,
+    "interviewsReached": 34,
     "offers": 19,
     "offersAccepted": 12,
     "rejections": 77,
     "inProgress": 4,
-    "countriesApplied": 18,
+    "countriesApplied": 23,
     "yearsSpanned": [
       2020,
       2026
@@ -36,7 +36,7 @@
       "applications": 20,
       "offers": 4,
       "accepted": 2,
-      "interviews": 4,
+      "interviews": 6,
       "rejected": 13
     },
     {
@@ -125,7 +125,7 @@
     },
     {
       "label": "Applied",
-      "count": 82
+      "count": 80
     },
     {
       "label": "Offer",
@@ -140,16 +140,16 @@
       "count": 8
     },
     {
+      "label": "Second Interview",
+      "count": 4
+    },
+    {
       "label": "Case / Assessment",
       "count": 3
     },
     {
       "label": "Online Test",
       "count": 3
-    },
-    {
-      "label": "Second Interview",
-      "count": 2
     },
     {
       "label": "Networking call",
@@ -258,12 +258,12 @@
       "count": 199
     },
     {
-      "label": "USA",
+      "label": "Multiple",
       "count": 12
     },
     {
-      "label": "Multiple",
-      "count": 11
+      "label": "USA",
+      "count": 12
     },
     {
       "label": "China",
@@ -271,15 +271,11 @@
     },
     {
       "label": "UK",
-      "count": 10
+      "count": 9
     },
     {
       "label": "Sweden",
       "count": 6
-    },
-    {
-      "label": "Unknown",
-      "count": 5
     },
     {
       "label": "Global",
@@ -323,6 +319,26 @@
     },
     {
       "label": "Japan",
+      "count": 1
+    },
+    {
+      "label": "South Korea",
+      "count": 1
+    },
+    {
+      "label": "Saudi Arabia",
+      "count": 1
+    },
+    {
+      "label": "Iran",
+      "count": 1
+    },
+    {
+      "label": "Ireland",
+      "count": 1
+    },
+    {
+      "label": "Estonia",
       "count": 1
     },
     {
@@ -383,11 +399,11 @@
     },
     {
       "stage": "Interview+",
-      "count": 32
+      "count": 34
     },
     {
       "stage": "Final round",
-      "count": 24
+      "count": 26
     },
     {
       "stage": "Offer",
