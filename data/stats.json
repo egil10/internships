@@ -3,11 +3,11 @@
     "tracked": 274,
     "appliedConfirmed": 135,
     "deadlineOnly": 139,
-    "interviewsReached": 25,
+    "interviewsReached": 28,
     "offers": 15,
     "offersAccepted": 7,
-    "rejections": 59,
-    "inProgress": 22,
+    "rejections": 77,
+    "inProgress": 4,
     "countriesApplied": 18,
     "yearsSpanned": [
       2020,
@@ -60,8 +60,8 @@
       "applications": 137,
       "offers": 4,
       "accepted": 2,
-      "interviews": 7,
-      "rejected": 15
+      "interviews": 10,
+      "rejected": 33
     },
     {
       "year": 2026,
@@ -125,7 +125,7 @@
     },
     {
       "label": "Applied",
-      "count": 85
+      "count": 82
     },
     {
       "label": "Account / Started",
@@ -137,7 +137,7 @@
     },
     {
       "label": "First Interview",
-      "count": 5
+      "count": 8
     },
     {
       "label": "Case / Assessment",
@@ -163,15 +163,11 @@
   "byOutcome": [
     {
       "label": "Unknown",
-      "count": 168
+      "count": 167
     },
     {
       "label": "Rejected",
-      "count": 59
-    },
-    {
-      "label": "In Progress",
-      "count": 22
+      "count": 77
     },
     {
       "label": "Offer Declined",
@@ -186,12 +182,16 @@
       "count": 6
     },
     {
-      "label": "Ghosted",
-      "count": 2
+      "label": "In Progress",
+      "count": 4
     },
     {
       "label": "Withdrew",
-      "count": 1
+      "count": 2
+    },
+    {
+      "label": "Ghosted",
+      "count": 2
     },
     {
       "label": "Later Offer",
@@ -383,7 +383,7 @@
     },
     {
       "stage": "Interview+",
-      "count": 25
+      "count": 28
     },
     {
       "stage": "Final round",
