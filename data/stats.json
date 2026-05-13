@@ -1,0 +1,397 @@
+{
+  "totals": {
+    "tracked": 274,
+    "appliedConfirmed": 135,
+    "deadlineOnly": 139,
+    "interviewsReached": 23,
+    "offers": 15,
+    "offersAccepted": 7,
+    "rejections": 57,
+    "inProgress": 24,
+    "countriesApplied": 18,
+    "yearsSpanned": [
+      2020,
+      2026
+    ]
+  },
+  "byYear": [
+    {
+      "year": 2020,
+      "applications": 1,
+      "offers": 0,
+      "accepted": 0,
+      "interviews": 0,
+      "rejected": 0
+    },
+    {
+      "year": 2021,
+      "applications": 9,
+      "offers": 4,
+      "accepted": 4,
+      "interviews": 4,
+      "rejected": 0
+    },
+    {
+      "year": 2022,
+      "applications": 19,
+      "offers": 3,
+      "accepted": 1,
+      "interviews": 3,
+      "rejected": 13
+    },
+    {
+      "year": 2023,
+      "applications": 15,
+      "offers": 3,
+      "accepted": 0,
+      "interviews": 4,
+      "rejected": 6
+    },
+    {
+      "year": 2024,
+      "applications": 38,
+      "offers": 1,
+      "accepted": 0,
+      "interviews": 2,
+      "rejected": 23
+    },
+    {
+      "year": 2025,
+      "applications": 137,
+      "offers": 4,
+      "accepted": 2,
+      "interviews": 7,
+      "rejected": 15
+    },
+    {
+      "year": 2026,
+      "applications": 55,
+      "offers": 0,
+      "accepted": 0,
+      "interviews": 3,
+      "rejected": 0
+    }
+  ],
+  "byType": [
+    {
+      "label": "Internship",
+      "count": 107
+    },
+    {
+      "label": "Summer Internship",
+      "count": 56
+    },
+    {
+      "label": "Full-time",
+      "count": 29
+    },
+    {
+      "label": "Part-time / Student",
+      "count": 22
+    },
+    {
+      "label": "Diplomatic",
+      "count": 14
+    },
+    {
+      "label": "Programme",
+      "count": 14
+    },
+    {
+      "label": "Talent Pool",
+      "count": 10
+    },
+    {
+      "label": "Event / Network",
+      "count": 7
+    },
+    {
+      "label": "Other",
+      "count": 7
+    },
+    {
+      "label": "Scholarship",
+      "count": 5
+    },
+    {
+      "label": "Research",
+      "count": 3
+    }
+  ],
+  "byStage": [
+    {
+      "label": "Deadline tracked",
+      "count": 143
+    },
+    {
+      "label": "Applied",
+      "count": 87
+    },
+    {
+      "label": "Account / Started",
+      "count": 15
+    },
+    {
+      "label": "Offer",
+      "count": 15
+    },
+    {
+      "label": "First Interview",
+      "count": 5
+    },
+    {
+      "label": "Case / Assessment",
+      "count": 3
+    },
+    {
+      "label": "Online Test",
+      "count": 3
+    },
+    {
+      "label": "Networking call",
+      "count": 2
+    },
+    {
+      "label": "Withdrew",
+      "count": 1
+    }
+  ],
+  "byOutcome": [
+    {
+      "label": "Unknown",
+      "count": 168
+    },
+    {
+      "label": "Rejected",
+      "count": 57
+    },
+    {
+      "label": "In Progress",
+      "count": 24
+    },
+    {
+      "label": "Offer Declined",
+      "count": 8
+    },
+    {
+      "label": "Offer Accepted",
+      "count": 7
+    },
+    {
+      "label": "Did Not Pursue",
+      "count": 6
+    },
+    {
+      "label": "Ghosted",
+      "count": 2
+    },
+    {
+      "label": "Withdrew",
+      "count": 1
+    },
+    {
+      "label": "Later Offer",
+      "count": 1
+    }
+  ],
+  "bySource": [
+    {
+      "label": "Other ATS",
+      "count": 57
+    },
+    {
+      "label": "School / Org Network",
+      "count": 42
+    },
+    {
+      "label": "Direct",
+      "count": 41
+    },
+    {
+      "label": "Teamtailor",
+      "count": 34
+    },
+    {
+      "label": "Webcruiter",
+      "count": 25
+    },
+    {
+      "label": "Other",
+      "count": 23
+    },
+    {
+      "label": "Finn",
+      "count": 13
+    },
+    {
+      "label": "Direct Outreach",
+      "count": 11
+    },
+    {
+      "label": "Workday",
+      "count": 11
+    },
+    {
+      "label": "SmartRecruiters",
+      "count": 10
+    },
+    {
+      "label": "Greenhouse",
+      "count": 3
+    },
+    {
+      "label": "Referral",
+      "count": 2
+    },
+    {
+      "label": "LinkedIn",
+      "count": 2
+    }
+  ],
+  "byCountry": [
+    {
+      "label": "Norway",
+      "count": 196
+    },
+    {
+      "label": "USA",
+      "count": 12
+    },
+    {
+      "label": "Multiple",
+      "count": 11
+    },
+    {
+      "label": "UK",
+      "count": 10
+    },
+    {
+      "label": "China",
+      "count": 10
+    },
+    {
+      "label": "Sweden",
+      "count": 6
+    },
+    {
+      "label": "Unknown",
+      "count": 5
+    },
+    {
+      "label": "Global",
+      "count": 4
+    },
+    {
+      "label": "Denmark",
+      "count": 4
+    },
+    {
+      "label": "Singapore",
+      "count": 3
+    },
+    {
+      "label": "Switzerland",
+      "count": 2
+    },
+    {
+      "label": "France",
+      "count": 2
+    },
+    {
+      "label": "Zambia",
+      "count": 2
+    },
+    {
+      "label": "Germany",
+      "count": 2
+    },
+    {
+      "label": "Mozambique",
+      "count": 1
+    },
+    {
+      "label": "Hong Kong",
+      "count": 1
+    },
+    {
+      "label": "Remote",
+      "count": 1
+    },
+    {
+      "label": "Japan",
+      "count": 1
+    },
+    {
+      "label": "Taiwan",
+      "count": 1
+    }
+  ],
+  "bySeason": [
+    {
+      "label": "Spring",
+      "count": 77
+    },
+    {
+      "label": "Investment Banking",
+      "count": 71
+    },
+    {
+      "label": "Autumn",
+      "count": 56
+    },
+    {
+      "label": "Summer",
+      "count": 26
+    },
+    {
+      "label": "Year-only",
+      "count": 21
+    },
+    {
+      "label": "Diplomatic (UD)",
+      "count": 13
+    },
+    {
+      "label": "Month-specific",
+      "count": 6
+    },
+    {
+      "label": "Kukula",
+      "count": 2
+    },
+    {
+      "label": "Intelligence",
+      "count": 1
+    },
+    {
+      "label": "Event",
+      "count": 1
+    }
+  ],
+  "funnel": [
+    {
+      "stage": "Tracked",
+      "count": 274
+    },
+    {
+      "stage": "Applied",
+      "count": 115
+    },
+    {
+      "stage": "Interview+",
+      "count": 23
+    },
+    {
+      "stage": "Final round",
+      "count": 18
+    },
+    {
+      "stage": "Offer",
+      "count": 15
+    },
+    {
+      "stage": "Accepted",
+      "count": 7
+    }
+  ]
+}

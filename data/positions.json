@@ -1,0 +1,93 @@
+{
+  "positions": [
+    {
+      "company": "Kukula Capital",
+      "role": "Visiting Associate",
+      "start": "2026-01",
+      "end": null,
+      "location": "Lusaka, Zambia",
+      "tier": "current",
+      "tag": "Investment"
+    },
+    {
+      "company": "Norwegian Ministry of Finance",
+      "role": "Asset Management Intern",
+      "start": "2025-08",
+      "end": "2025-10",
+      "location": "Oslo, Norway",
+      "tier": "internship",
+      "tag": "Investment"
+    },
+    {
+      "company": "Norges Bank",
+      "role": "Finance Intern",
+      "start": "2024-09",
+      "end": "2025-08",
+      "location": "Oslo, Norway",
+      "tier": "internship",
+      "tag": "Investment"
+    },
+    {
+      "company": "Wellvector",
+      "role": "Investment Intern",
+      "start": "2025-02",
+      "end": "2025-03",
+      "location": "Stavanger, Norway",
+      "tier": "internship",
+      "tag": "Investment"
+    },
+    {
+      "company": "Royal Norwegian Embassy in Beijing",
+      "role": "Foreign Affairs Intern",
+      "start": "2024-01",
+      "end": "2024-08",
+      "location": "Beijing, China",
+      "tier": "internship",
+      "tag": "Diplomatic"
+    },
+    {
+      "company": "DNB Asset Management",
+      "role": "Asset Management Intern",
+      "start": "2023-06",
+      "end": "2024-01",
+      "location": "Oslo, Norway",
+      "tier": "internship",
+      "tag": "Investment"
+    },
+    {
+      "company": "Norwegian School of Economics (NHH)",
+      "role": "Teaching Assistant",
+      "start": "2023-01",
+      "end": "2023-06",
+      "location": "Bergen, Norway",
+      "tier": "academic",
+      "tag": "Academic"
+    },
+    {
+      "company": "FAIR — Centre for Experimental Research",
+      "role": "Research Assistant",
+      "start": "2021-08",
+      "end": "2023-06",
+      "location": "Bergen, Norway",
+      "tier": "academic",
+      "tag": "Research"
+    }
+  ],
+  "earlierWork": [
+    "Tine Fotballskole",
+    "SK Baune",
+    "Furedalen",
+    "Myrkdalen",
+    "Goodyear (video production)",
+    "Eikedalen",
+    "Fløibanen / Fløyen",
+    "Sykkel-VM",
+    "European Youth Parliament",
+    "Natur og Ungdom",
+    "Den Nationale Scene",
+    "Norges Blindeforbund",
+    "Bergensbaneløpet (NHHS)",
+    "Kinesisk nyttår (event)",
+    "Norges Handelshøyskole (assorted roles)"
+  ]
+}
