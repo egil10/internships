@@ -3,6 +3,7 @@
 import { Fragment, useState } from "react";
 import { ChevronDown, ChevronUp, ChevronsUpDown } from "lucide-react";
 import type { Internship } from "@/lib/types";
+import { Flag } from "./flag";
 
 type SortKey = "year" | "company" | "country" | "stageNorm" | "outcomeNorm";
 type SortDir = "asc" | "desc";
@@ -114,6 +115,9 @@ export function InternshipTable({ rows }: { rows: Internship[] }) {
                       {r.role || "—"}
                     </td>
                     <td className="px-4 py-2.5 text-muted">
+                      <span className="mr-1.5 inline-flex align-middle">
+                        <Flag country={r.country} size={14} />
+                      </span>
                       {r.country}
                     </td>
                     <td className="px-4 py-2.5 whitespace-nowrap w-[1%]">
