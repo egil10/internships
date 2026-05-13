@@ -10,6 +10,7 @@ type SortDir = "asc" | "desc";
 
 const STAGE_TONE: Record<string, string> = {
   Offer: "bg-accent/15 text-accent border-accent/30",
+  "Third Interview": "bg-blue-500/15 text-blue-600 border-blue-500/40 dark:text-blue-300",
   "Second Interview": "bg-blue-500/10 text-blue-500 border-blue-500/30 dark:text-blue-300",
   "First Interview": "bg-blue-500/10 text-blue-500 border-blue-500/30 dark:text-blue-300",
   "Case / Assessment": "bg-violet-500/10 text-violet-500 border-violet-500/30 dark:text-violet-300",

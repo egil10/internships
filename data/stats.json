@@ -3,12 +3,12 @@
     "tracked": 278,
     "appliedConfirmed": 139,
     "deadlineOnly": 139,
-    "interviewsReached": 34,
-    "offers": 19,
+    "interviewsReached": 35,
+    "offers": 18,
     "offersAccepted": 12,
-    "rejections": 77,
+    "rejections": 76,
     "inProgress": 4,
-    "countriesApplied": 23,
+    "countriesApplied": 22,
     "yearsSpanned": [
       2020,
       2026
@@ -41,18 +41,18 @@
     },
     {
       "year": 2023,
-      "applications": 16,
+      "applications": 17,
       "offers": 4,
       "accepted": 2,
-      "interviews": 5,
+      "interviews": 6,
       "rejected": 6
     },
     {
       "year": 2024,
-      "applications": 40,
-      "offers": 3,
+      "applications": 39,
+      "offers": 2,
       "accepted": 2,
-      "interviews": 4,
+      "interviews": 3,
       "rejected": 23
     },
     {
@@ -60,8 +60,8 @@
       "applications": 137,
       "offers": 4,
       "accepted": 2,
-      "interviews": 10,
-      "rejected": 33
+      "interviews": 11,
+      "rejected": 32
     },
     {
       "year": 2026,
@@ -125,11 +125,11 @@
     },
     {
       "label": "Applied",
-      "count": 80
+      "count": 79
     },
     {
       "label": "Offer",
-      "count": 19
+      "count": 18
     },
     {
       "label": "Account / Started",
@@ -156,6 +156,10 @@
       "count": 2
     },
     {
+      "label": "Third Interview",
+      "count": 2
+    },
+    {
       "label": "Withdrew",
       "count": 1
     }
@@ -163,22 +167,22 @@
   "byOutcome": [
     {
       "label": "Unknown",
-      "count": 167
+      "count": 169
     },
     {
       "label": "Rejected",
-      "count": 77
+      "count": 76
     },
     {
       "label": "Offer Accepted",
       "count": 12
     },
     {
-      "label": "Offer Declined",
-      "count": 7
+      "label": "Did Not Pursue",
+      "count": 6
     },
     {
-      "label": "Did Not Pursue",
+      "label": "Offer Declined",
       "count": 6
     },
     {
@@ -201,15 +205,15 @@
   "bySource": [
     {
       "label": "Other ATS",
-      "count": 58
-    },
-    {
-      "label": "School / Org Network",
-      "count": 43
+      "count": 59
     },
     {
       "label": "Direct",
       "count": 43
+    },
+    {
+      "label": "School / Org Network",
+      "count": 42
     },
     {
       "label": "Teamtailor",
@@ -255,7 +259,7 @@
   "byCountry": [
     {
       "label": "Norway",
-      "count": 199
+      "count": 200
     },
     {
       "label": "Multiple",
@@ -314,10 +318,6 @@
       "count": 1
     },
     {
-      "label": "Remote",
-      "count": 1
-    },
-    {
       "label": "Japan",
       "count": 1
     },
@@ -357,7 +357,7 @@
     },
     {
       "label": "Autumn",
-      "count": 60
+      "count": 59
     },
     {
       "label": "Summer",
@@ -369,7 +369,7 @@
     },
     {
       "label": "Diplomatic (UD)",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Month-specific",
@@ -399,15 +399,15 @@
     },
     {
       "stage": "Interview+",
-      "count": 34
+      "count": 35
     },
     {
       "stage": "Final round",
-      "count": 26
+      "count": 27
     },
     {
       "stage": "Offer",
-      "count": 19
+      "count": 18
     },
     {
       "stage": "Accepted",

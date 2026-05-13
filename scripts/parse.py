@@ -66,6 +66,7 @@ STAGE_ORDER = [
     "Networking call",
     "First Interview",
     "Second Interview",
+    "Third Interview",
     "Case / Assessment",
     "Offer",
     "Withdrew",
@@ -83,6 +84,8 @@ def norm_stage(raw) -> str:
         return "Offer"
     if "case" in s or "advanced" in s:
         return "Case / Assessment"
+    if "third" in s or "final round" in s:
+        return "Third Interview"
     if "second" in s:
         return "Second Interview"
     if "first" in s or "video" in s or "rescheduled" in s:
@@ -319,7 +322,7 @@ def main():
 
     # User-confirmed corrections: these were marked as accepted offers in the
     # tracker, but the user told me they did not actually take/do them.
-    DID_NOT_TAKE_IDS = {217, 223, 237, 253, 262}
+    DID_NOT_TAKE_IDS = {223, 237, 253, 262}
 
     records = []
     for raw in data_rows:
@@ -389,7 +392,7 @@ def main():
             by_year[y]["offers"] += 1
         if r["outcomeNorm"] == "Offer Accepted":
             by_year[y]["accepted"] += 1
-        if r["stageNorm"] in ("First Interview", "Second Interview", "Case / Assessment", "Offer"):
+        if r["stageNorm"] in ("First Interview", "Second Interview", "Third Interview", "Case / Assessment", "Offer"):
             by_year[y]["interviews"] += 1
         if r["outcomeNorm"] == "Rejected":
             by_year[y]["rejected"] += 1
@@ -402,8 +405,8 @@ def main():
     funnel = [
         {"stage": "Tracked", "count": len(records)},
         {"stage": "Applied", "count": sum(1 for r in records if r["stageNorm"] not in ("Deadline tracked", "Account / Started", "Withdrew"))},
-        {"stage": "Interview+", "count": sum(1 for r in records if r["stageNorm"] in ("First Interview", "Second Interview", "Case / Assessment", "Offer"))},
-        {"stage": "Final round", "count": sum(1 for r in records if r["stageNorm"] in ("Second Interview", "Case / Assessment", "Offer"))},
+        {"stage": "Interview+", "count": sum(1 for r in records if r["stageNorm"] in ("First Interview", "Second Interview", "Third Interview", "Case / Assessment", "Offer"))},
+        {"stage": "Final round", "count": sum(1 for r in records if r["stageNorm"] in ("Second Interview", "Third Interview", "Case / Assessment", "Offer"))},
         {"stage": "Offer", "count": stage_counts.get("Offer", 0)},
         {"stage": "Accepted", "count": sum(1 for r in records if r["outcomeNorm"] == "Offer Accepted")},
     ]
@@ -413,7 +416,7 @@ def main():
             "tracked": len(records),
             "appliedConfirmed": sum(1 for r in records if r["appliedConfirmed"]),
             "deadlineOnly": sum(1 for r in records if not r["appliedConfirmed"]),
-            "interviewsReached": sum(1 for r in records if r["stageNorm"] in ("First Interview", "Second Interview", "Case / Assessment", "Offer")),
+            "interviewsReached": sum(1 for r in records if r["stageNorm"] in ("First Interview", "Second Interview", "Third Interview", "Case / Assessment", "Offer")),
             "offers": stage_counts.get("Offer", 0),
             "offersAccepted": sum(1 for r in records if r["outcomeNorm"] == "Offer Accepted"),
             "rejections": sum(1 for r in records if r["outcomeNorm"] == "Rejected"),
