@@ -301,7 +301,7 @@ def main():
 
     # User-confirmed corrections: these were marked as accepted offers in the
     # tracker, but the user told me they did not actually take/do them.
-    DID_NOT_TAKE_IDS = {217, 223, 232, 237, 253, 262}
+    DID_NOT_TAKE_IDS = {217, 223, 237, 253, 262}
 
     records = []
     for raw in data_rows:

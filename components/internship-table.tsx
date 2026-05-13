@@ -3,6 +3,7 @@
 import { Fragment, useState } from "react";
 import { ChevronDown, ChevronUp, ChevronsUpDown } from "lucide-react";
 import type { Internship } from "@/lib/types";
+import { Flag } from "./flag";
 
 type SortKey = "year" | "company" | "country" | "stageNorm" | "outcomeNorm";
 type SortDir = "asc" | "desc";
@@ -114,16 +115,18 @@ export function InternshipTable({ rows }: { rows: Internship[] }) {
                       {r.role || "—"}
                     </td>
                     <td className="px-4 py-2.5 text-muted">
-                      <span className="mr-1.5">{r.flag}</span>
+                      <span className="mr-1.5 inline-flex align-middle">
+                        <Flag country={r.country} size={14} />
+                      </span>
                       {r.country}
                     </td>
-                    <td className="px-4 py-2.5">
+                    <td className="px-4 py-2.5 whitespace-nowrap w-[1%]">
                       <Pill
                         text={r.stageNorm}
                         className={STAGE_TONE[r.stageNorm] ?? "bg-muted/10 text-muted border-border"}
                       />
                     </td>
-                    <td className="px-4 py-2.5">
+                    <td className="px-4 py-2.5 whitespace-nowrap w-[1%]">
                       <Pill
                         text={r.outcomeNorm}
                         className={OUTCOME_TONE[r.outcomeNorm] ?? "bg-muted/10 text-muted border-border"}
@@ -192,7 +195,7 @@ function SortableTh({
 function Pill({ text, className }: { text: string; className: string }) {
   return (
     <span
-      className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-medium ${className}`}
+      className={`inline-flex items-center whitespace-nowrap rounded-full border px-2 py-0.5 text-[11px] font-medium ${className}`}
     >
       {text}
     </span>

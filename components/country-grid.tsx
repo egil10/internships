@@ -1,28 +1,7 @@
 "use client";
 
 import type { CountItem } from "@/lib/types";
-
-const FLAGS: Record<string, string> = {
-  Norway: "🇳🇴",
-  UK: "🇬🇧",
-  Sweden: "🇸🇪",
-  Denmark: "🇩🇰",
-  China: "🇨🇳",
-  "Hong Kong": "🇭🇰",
-  Taiwan: "🇹🇼",
-  Singapore: "🇸🇬",
-  Switzerland: "🇨🇭",
-  Zambia: "🇿🇲",
-  Mozambique: "🇲🇿",
-  Japan: "🇯🇵",
-  USA: "🇺🇸",
-  Germany: "🇩🇪",
-  France: "🇫🇷",
-  Global: "🌍",
-  Remote: "💻",
-  Multiple: "🌐",
-  Unknown: "❓",
-};
+import { Flag } from "./flag";
 
 export function CountryGrid({
   data,
@@ -55,9 +34,7 @@ export function CountryGrid({
             />
             <div className="relative flex items-center justify-between">
               <div className="flex items-center gap-2 min-w-0">
-                <span className="text-lg leading-none">
-                  {FLAGS[c.label] ?? "📍"}
-                </span>
+                <Flag country={c.label} size={16} />
                 <span className="truncate text-sm">{c.label}</span>
               </div>
               <span className="tabular-nums text-xs text-muted shrink-0">

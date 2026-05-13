@@ -1,11 +1,11 @@
 {
   "totals": {
-    "tracked": 274,
-    "appliedConfirmed": 135,
+    "tracked": 278,
+    "appliedConfirmed": 139,
     "deadlineOnly": 139,
-    "interviewsReached": 28,
-    "offers": 15,
-    "offersAccepted": 7,
+    "interviewsReached": 32,
+    "offers": 19,
+    "offersAccepted": 12,
     "rejections": 77,
     "inProgress": 4,
     "countriesApplied": 18,
@@ -33,26 +33,26 @@
     },
     {
       "year": 2022,
-      "applications": 19,
-      "offers": 3,
-      "accepted": 1,
-      "interviews": 3,
+      "applications": 20,
+      "offers": 4,
+      "accepted": 2,
+      "interviews": 4,
       "rejected": 13
     },
     {
       "year": 2023,
-      "applications": 15,
-      "offers": 3,
-      "accepted": 0,
-      "interviews": 4,
+      "applications": 16,
+      "offers": 4,
+      "accepted": 2,
+      "interviews": 5,
       "rejected": 6
     },
     {
       "year": 2024,
-      "applications": 38,
-      "offers": 1,
-      "accepted": 0,
-      "interviews": 2,
+      "applications": 40,
+      "offers": 3,
+      "accepted": 2,
+      "interviews": 4,
       "rejected": 23
     },
     {
@@ -75,7 +75,7 @@
   "byType": [
     {
       "label": "Internship",
-      "count": 107
+      "count": 110
     },
     {
       "label": "Summer Internship",
@@ -87,7 +87,7 @@
     },
     {
       "label": "Part-time / Student",
-      "count": 22
+      "count": 23
     },
     {
       "label": "Diplomatic",
@@ -128,11 +128,11 @@
       "count": 82
     },
     {
-      "label": "Account / Started",
-      "count": 15
+      "label": "Offer",
+      "count": 19
     },
     {
-      "label": "Offer",
+      "label": "Account / Started",
       "count": 15
     },
     {
@@ -170,11 +170,11 @@
       "count": 77
     },
     {
-      "label": "Offer Declined",
-      "count": 8
+      "label": "Offer Accepted",
+      "count": 12
     },
     {
-      "label": "Offer Accepted",
+      "label": "Offer Declined",
       "count": 7
     },
     {
@@ -201,15 +201,15 @@
   "bySource": [
     {
       "label": "Other ATS",
-      "count": 57
+      "count": 58
     },
     {
       "label": "School / Org Network",
-      "count": 42
+      "count": 43
     },
     {
       "label": "Direct",
-      "count": 41
+      "count": 43
     },
     {
       "label": "Teamtailor",
@@ -255,7 +255,7 @@
   "byCountry": [
     {
       "label": "Norway",
-      "count": 196
+      "count": 199
     },
     {
       "label": "USA",
@@ -266,11 +266,11 @@
       "count": 11
     },
     {
-      "label": "UK",
-      "count": 10
+      "label": "China",
+      "count": 11
     },
     {
-      "label": "China",
+      "label": "UK",
       "count": 10
     },
     {
@@ -341,7 +341,7 @@
     },
     {
       "label": "Autumn",
-      "count": 56
+      "count": 60
     },
     {
       "label": "Summer",
@@ -375,27 +375,27 @@
   "funnel": [
     {
       "stage": "Tracked",
-      "count": 274
+      "count": 278
     },
     {
       "stage": "Applied",
-      "count": 115
+      "count": 119
     },
     {
       "stage": "Interview+",
-      "count": 28
+      "count": 32
     },
     {
       "stage": "Final round",
-      "count": 20
+      "count": 24
     },
     {
       "stage": "Offer",
-      "count": 15
+      "count": 19
     },
     {
       "stage": "Accepted",
-      "count": 7
+      "count": 12
     }
   ]
 }
