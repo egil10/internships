@@ -3,11 +3,11 @@
     "tracked": 279,
     "appliedConfirmed": 140,
     "deadlineOnly": 139,
-    "interviewsReached": 37,
+    "interviewsReached": 36,
     "offers": 19,
     "offersAccepted": 12,
-    "rejections": 75,
-    "inProgress": 4,
+    "rejections": 76,
+    "inProgress": 2,
     "countriesApplied": 22,
     "yearsSpanned": [
       2020,
@@ -68,8 +68,8 @@
       "applications": 55,
       "offers": 0,
       "accepted": 0,
-      "interviews": 5,
-      "rejected": 2
+      "interviews": 4,
+      "rejected": 3
     }
   ],
   "byType": [
@@ -144,24 +144,24 @@
       "count": 5
     },
     {
-      "label": "Case / Assessment",
+      "label": "Online Test",
       "count": 3
     },
     {
-      "label": "Online Test",
-      "count": 3
+      "label": "Withdrew",
+      "count": 2
     },
     {
       "label": "Networking call",
       "count": 2
     },
     {
-      "label": "Third Interview",
+      "label": "Case / Assessment",
       "count": 2
     },
     {
-      "label": "Withdrew",
-      "count": 1
+      "label": "Third Interview",
+      "count": 2
     }
   ],
   "byOutcome": [
@@ -171,7 +171,7 @@
     },
     {
       "label": "Rejected",
-      "count": 75
+      "count": 76
     },
     {
       "label": "Offer Accepted",
@@ -186,12 +186,12 @@
       "count": 6
     },
     {
-      "label": "In Progress",
+      "label": "Withdrew",
       "count": 4
     },
     {
-      "label": "Withdrew",
-      "count": 3
+      "label": "In Progress",
+      "count": 2
     },
     {
       "label": "Ghosted",
@@ -395,15 +395,15 @@
     },
     {
       "stage": "Applied",
-      "count": 120
+      "count": 119
     },
     {
       "stage": "Interview+",
-      "count": 37
+      "count": 36
     },
     {
       "stage": "Final round",
-      "count": 29
+      "count": 28
     },
     {
       "stage": "Offer",
